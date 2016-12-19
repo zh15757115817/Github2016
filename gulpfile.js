@@ -16,7 +16,7 @@ var nodemon = require('gulp-nodemon')
 gulp.task('nodemon', function(ab){
 	var ft = false;
 	return nodemon({
-		script:'./index.js'
+		script:'./app.js'
 	}).on('start', function(){
 		if(!ft){
 			ab();
