@@ -1,0 +1,151 @@
+body {
+  background: #efeff4;
+}
+.head {
+  width: 100%;
+  height: 50px;
+  background: #fff url("../../img/nav_back_icon@2x.png") no-repeat 15px;
+  background-size: 2.5%;
+  line-height: 50px;
+  text-align: center;
+}
+.head_title {
+  color: #ea5404;
+  margin-left: 35px;
+}
+.head_more {
+  diaplay: block;
+  float: right;
+  margin-right: 15px;
+  font-size: 12px;
+}
+.login_cells {
+  width: 100%;
+  background: #fff;
+  margin-top: 20px;
+}
+.login_cell {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+.login_cell_more {
+  width: 94%;
+  height: 50px;
+  margin-left: 3%;
+  border-bottom: 1px solid #dcdcdc;
+}
+.login_cell_more_last {
+  width: 94%;
+  height: 50px;
+  margin-left: 3%;
+}
+.usename_img {
+  float: left;
+  height: 50px;
+  width: 50px;
+  background: url("../../img/content_ID_icon@2x.png") no-repeat 0px 15px;
+  background-size: 40%;
+}
+.usename {
+  float: left;
+  margin-left: -15px;
+}
+.usename_ipt {
+  width: 70%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.code_img {
+  float: left;
+  height: 50px;
+  width: 50px;
+  background: url("../../img/content_verify_icon@2x.png") no-repeat 3px 15px;
+  background-size: 29%;
+}
+.code {
+  float: left;
+  margin-left: -15px;
+}
+.code_ipt {
+  width: 48%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.get_code {
+  width: 75px;
+  height: 20px;
+  background: #ea5404;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+}
+.password_img {
+  float: left;
+  height: 50px;
+  width: 50px;
+  background: url("../../img/content_password_icon@2x.png") no-repeat 0px 16px;
+  background-size: 36%;
+}
+.password {
+  float: left;
+  margin-left: -15px;
+}
+.password_ipt {
+  width: 70%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.id_img {
+  float: left;
+  height: 50px;
+  width: 50px;
+  background: url("../../img/content_position_icon@2x.png") no-repeat 0px 16px;
+  background-size: 36%;
+}
+.id {
+  float: left;
+  margin-left: -15px;
+}
+.id_ipt {
+  width: 62%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.id_img_more {
+  float: right;
+  height: 40px;
+  width: 40px;
+  background: url("../../img/nav_back_down@2x.png") no-repeat 20px 20px;
+  background-size: 40%;
+}
+.btn_login {
+  height: 40px;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 40px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background: #c7c7c7;
+}
+.bottom {
+  width: 100%;
+  margin-left: 22%;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.bottom_two {
+  color: #ea5404;
+  border-bottom: 1px solid #ea5404;
+}
