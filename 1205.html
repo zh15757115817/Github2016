@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<pre>
+		获取页面中所有用到的标签的种类
+	</pre>
+</body>
+<script>
+//获取页面所有标签
+var doms = document.getElementsByTagName('*');
+console.log(doms);
+var doms2 = document.querySelectorAll('*');
+console.log(doms2);
+//doms2.slice();
+//类数组对象转化成数组；
+var domArr = Array.from(doms2);
+console.log(domArr);
+console.log(domArr.slice());
+
+
+//自定义方法
+function objToArr(obj){
+	var arr = [];
+	var i,
+			lg = obj.length;
+	for(i = 0; i < lg; i++){
+		arr.push(obj[i]);
+	}
+	return arr ;
+}
+
+var domArr2 = objToArr(doms2);
+console.log('domArr2',domArr2);
+console.log('domArr2 slice', domArr2.slice() );
+
+//返回dom元素标签名的数组
+
+	function domByTagName(dArr){
+		var tagArr = [];
+		var i,
+			lg = dArr.length;
+		for(i = 0;i<lg;i++){
+			//tagName 获取元素名称
+			//document.getElementByTagName('body')[0].tagName
+			tagArr.push(dArr[i].tagName);
+		}
+
+		return tagArr;
+	}
+
+	//获取由标签
+	var tagNameArr = domByTagName(domArr2);
+	console.log('tagNameArr', tagNameArr);
+	
+
+
+var array = [1,1,2,3,4,2,3,6,8,9,9,6,4,6];
+
+
+for(x=0;x<array.length;x++){
+	for(y=x+1;y<array.length;){
+		if(array[x]==array[y]){
+			array.splice(y,1);
+		}else{
+			y++;
+		}
+	}
+}
+
+console.log(array);
+</script>
+</html>
