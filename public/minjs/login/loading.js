@@ -1,1 +1,1 @@
-window.onload=function(){setTimeout(function(){location.href="../views/home/home.html"},2e3)};
+window.onload=function(){setTimeout(function(){location.href="./home/home.html"},2e3)};
