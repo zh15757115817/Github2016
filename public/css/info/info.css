@@ -116,7 +116,8 @@ body {
   background-size: 20%;
 }
 .bottom {
-  width: 100%;
+  right: 0px;
+  left: 0px;
   height: 40px;
   position: fixed;
   bottom: 0px;
